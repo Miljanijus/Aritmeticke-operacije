@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ff99;
+}
+.form{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom,from(#ff11),to(#ff33));
+    box-shadow: 0 0 30px #000;
+}
+.form h1{
+    text-align: center;
+}
+.text1,.text2,.text3,.text4{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22.5%;
+    padding: 10px;
+}
+.broj1,.operacija,.broj2{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+.rezultat, #rezultat{
+    text-align: center;
+    font-weight: bold;
+}
+.izracunaj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 39%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+}
+.izracunaj:hover{
+    cursor: pointer;
+}
+
